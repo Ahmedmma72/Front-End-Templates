@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color:#46529d ;
+  color:white;
+  padding: 0;
+}
+.text{
+  text-align: center;
+}
+.container{
+  width:60%;
+  margin:10% auto;  
+}
+.listItems{
+background-color: white;
+color: #46529d;
+}
+.listItems p {
+  margin:0;
+  padding: 10px 0px;
+  text-align: center;
+}
+.listItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: 0.3px solid #ccc
+}
+.listItems .title{
+  background-color: #2ebaee;
+  color: white;
+}
+.listItems .name{
+  width:60%;
+}
+.listItems .age{
+  width:30%;
+}
+.listItems .action{
+  width:10%;
+}
+.listItems .icon{
+  color:red;
+  cursor: pointer;
+}
+.form input{
+  background-color:gray;
+  padding: 10px;
+  font-size: 20px;
+  border: 0.3px solid #ccc
+}
+.form input::placeholder{
+  color: aliceblue;
+}
+.form input[type=submit]{
+  background-color: #2ebaee;
+  color:white ;
+  cursor: pointer;
+}
+
+
